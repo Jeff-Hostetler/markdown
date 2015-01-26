@@ -1,6 +1,36 @@
-html, body {
-  margin: 20px;
+
+html {font-size: 1em;}
+
+body {
+  background-color: white;
+  font-family: font-family: 'Roboto', sans-serif;;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #333;
+  margin: 10px;
+
 }
+
+p {margin-bottom: 1.3em;}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.998em;
+}
+
+h2 {font-size: 2.827em;}
+
+h3 {font-size: 1.999em;}
+
+h4 {font-size: 1.414em;}
+
+small, .font_small {font-size: 0.707em;}
 
 #title{
   text-align: center;
@@ -10,9 +40,9 @@ textarea, .output{
   width: 50%;
   float: left;
   box-sizing: border-box;
-  height: 500px;
+  height: 700px;
   padding: 20px;
 }
 .output{
-  border: 1px solid RGBA(29, 31, 33, 0.3);
+  border: 1px solid RGBA(29, 31, 33, 0.1);
 }
