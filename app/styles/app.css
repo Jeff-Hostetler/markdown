@@ -1,3 +1,18 @@
 html, body {
   margin: 20px;
 }
+
+#title{
+  text-align: center;
+}
+
+textarea, .output{
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  height: 500px;
+  padding: 20px;
+}
+.output{
+  border: 1px solid RGBA(29, 31, 33, 0.3);
+}

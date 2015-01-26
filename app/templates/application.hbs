@@ -1,3 +1,10 @@
-<h2 id="title">Welcome to Ember.js</h2>
+<h2 id="title">Markdown conversionator</h2>
 
+<div class="input">
+  {{textarea placeholder="Enter markdown here..." value=postContent}}
+</div>
+
+<div class="output">
+  {{showdown-addon postContent}}
+</div>
 {{outlet}}
